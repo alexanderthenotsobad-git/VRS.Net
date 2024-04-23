@@ -5,6 +5,10 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRSDataManager", "VRSDataManager\VRSDataManager.csproj", "{2AB157E1-02AE-4CF9-8A7E-3C7FD11BC171}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "VRSData", "VRSData\VRSData.sqlproj", "{31497C5A-0B97-4F15-A5BC-63C4B60FEFB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRSDeskTopUI", "VRSDeskTopUI\VRSDeskTopUI.csproj", "{2031C1CF-0E5F-4D84-B5FB-8B9DA1E64F77}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,16 @@ Global
 		{2AB157E1-02AE-4CF9-8A7E-3C7FD11BC171}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AB157E1-02AE-4CF9-8A7E-3C7FD11BC171}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AB157E1-02AE-4CF9-8A7E-3C7FD11BC171}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31497C5A-0B97-4F15-A5BC-63C4B60FEFB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31497C5A-0B97-4F15-A5BC-63C4B60FEFB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31497C5A-0B97-4F15-A5BC-63C4B60FEFB9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{31497C5A-0B97-4F15-A5BC-63C4B60FEFB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31497C5A-0B97-4F15-A5BC-63C4B60FEFB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31497C5A-0B97-4F15-A5BC-63C4B60FEFB9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2031C1CF-0E5F-4D84-B5FB-8B9DA1E64F77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2031C1CF-0E5F-4D84-B5FB-8B9DA1E64F77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2031C1CF-0E5F-4D84-B5FB-8B9DA1E64F77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2031C1CF-0E5F-4D84-B5FB-8B9DA1E64F77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
