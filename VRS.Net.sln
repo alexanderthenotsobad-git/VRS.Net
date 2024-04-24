@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRSDataManager", "VRSDataMa
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "VRSData", "VRSData\VRSData.sqlproj", "{31497C5A-0B97-4F15-A5BC-63C4B60FEFB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRSDeskTopUI", "VRSDeskTopUI\VRSDeskTopUI.csproj", "{2031C1CF-0E5F-4D84-B5FB-8B9DA1E64F77}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRSDesktopUI", "VRSDeskTopUI\VRSDesktopUI.csproj", "{2031C1CF-0E5F-4D84-B5FB-8B9DA1E64F77}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
