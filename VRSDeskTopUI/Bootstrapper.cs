@@ -9,7 +9,7 @@ using VRSDesktopUI.ViewModels;
 
 namespace VRSDesktopUI
 {
-    internal class Bootstrapper : BootstrapperBase
+    public class Bootstrapper : BootstrapperBase
     {
         public Bootstrapper()
         {

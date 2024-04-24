@@ -7,7 +7,7 @@ using VRSDesktopUI.ViewModels;
 
 namespace VRSDesktopUI.ViewModels
 {
-    internal class ShellViewModel
+    public class ShellViewModel
     {
     }
 }
