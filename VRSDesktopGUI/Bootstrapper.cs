@@ -5,11 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
-using VRSDesktopUI.ViewModels;
+using VRSDesktopGUI.ViewModels;
 
-namespace VRSDesktopUI
+namespace VRSDesktopGUI
 {
-    internal class Bootstrapper : BootstrapperBase
+    public class Bootstrapper : BootstrapperBase
     {
         public Bootstrapper()
         {
