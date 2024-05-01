@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace VRSDesktopUI.Properties
+namespace VRSDesktopGUI.Properties
 {
 
 
