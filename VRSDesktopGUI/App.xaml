@@ -1,0 +1,24 @@
+﻿<Application x:Class="VRSDesktopGUI.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+<<<<<<< HEAD:VRSDeskTopUI/App.xaml
+             xmlns:local="clr-namespace:VRSDesktopUI">
+=======
+             xmlns:local="clr-namespace:VRSDesktopGUI">
+>>>>>>> frontend:VRSDesktopGUI/App.xaml
+
+    <Application.Resources>
+    <ResourceDictionary>
+        <ResourceDictionary.MergedDictionaries>
+<<<<<<< HEAD:VRSDeskTopUI/App.xaml
+            <ResourceDictionary>
+                    <local:Bootstrapper x:Key="Bootstrapper" />
+=======
+                <ResourceDictionary>
+                    <local:Bootstrapper x:Key="Bootstrapper" />        
+>>>>>>> frontend:VRSDesktopGUI/App.xaml
+                </ResourceDictionary>
+        </ResourceDictionary.MergedDictionaries>
+    </ResourceDictionary>
+    </Application.Resources>
+</Application>
