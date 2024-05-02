@@ -11,13 +11,8 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using VRSDesktopUI;
 
-<<<<<<< HEAD:VRSDeskTopUI/Views/ShellView.xaml.cs
-namespace VRSDesktopUI.Views
-=======
 namespace VRSDesktopGUI.Views
->>>>>>> frontend:VRSDesktopGUI/Views/ShellView.xaml.cs
 {
     /// <summary>
     /// Interaction logic for ShellView.xaml

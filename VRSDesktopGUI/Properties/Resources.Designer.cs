@@ -8,11 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-<<<<<<< HEAD:VRSDeskTopUI/Properties/Resources.Designer.cs
-namespace VRSDesktopUI.Properties
-=======
 namespace VRSDesktopGUI.Properties
->>>>>>> frontend:VRSDesktopGUI/Properties/Resources.Designer.cs
 {
 
 
