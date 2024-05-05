@@ -65,4 +65,11 @@
   <ItemGroup>
     <None Include="PublishLocations\VRSData.publish.xml" />
   </ItemGroup>
+  <ItemGroup>
+    <Build Include="dbo\tables\User.sql" />
+    <Build Include="dbo\tables\Order.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="VRSData.refactorlog" />
+  </ItemGroup>
 </Project>
