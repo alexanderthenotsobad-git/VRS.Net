@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Net;
 using System.Net.Http;
 using System.Security.Claims;
 using System.Security.Cryptography;
@@ -28,6 +29,16 @@ namespace VRSDataManager.Controllers
 
         public AccountController()
         {
+            // Set the server certificate validation callback
+            ServicePointManager.ServerCertificateValidationCallback += ValidateServerCertificate;
+        }
+        private bool ValidateServerCertificate(object sender, System.Security.Cryptography.X509Certificates.X509Certificate certificate,
+                                           System.Security.Cryptography.X509Certificates.X509Chain chain, System.Net.Security.SslPolicyErrors sslPolicyErrors)
+        {
+            // Implement your custom logic here
+            // For example, you can check the certificate details and decide whether to accept or reject it
+            // In this example, we'll just accept all certificates regardless of their validity
+            return true;
         }
 
         public AccountController(ApplicationUserManager userManager,
